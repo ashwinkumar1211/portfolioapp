@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { FirstName, resumeLink } from "../editable-stuff/configurations.json";
+import React, { useState, useEffect } from 'react';
+import { FirstName, resumeLink } from '../editable-stuff/configurations.json';
 
-const Navbar = (props) => {
+const Navbar = props => {
   const [isTop, setIsTop] = useState(true);
   useEffect(() => {
-    document.addEventListener("scroll", () => {
+    document.addEventListener('scroll', () => {
       const istop = window.scrollY < 200;
       if (istop !== isTop) {
         setIsTop(istop);
@@ -14,50 +14,52 @@ const Navbar = (props) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg fixed-top navbar-light ${
-        isTop ? "bg-transparent" : "bg-gradient"
+      className={`navmain navbar navbar-expand-lg fixed-top navbar-light ${
+        isTop ? 'bg-transparent' : 'bg-gradient'
       } `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <a className='navbar-brand' href={process.env.PUBLIC_URL + '/#home'}>
         {`<${FirstName} />`}
       </a>
-      <a href="!#" className="logo"> </a>
+      <a href='!#' className='logo'>
+        {' '}
+      </a>
       <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        className='navbar-toggler'
+        type='button'
+        data-toggle='collapse'
+        data-target='#navbarTogglerDemo02'
+        aria-controls='navbarTogglerDemo02'
+        aria-expanded='false'
+        aria-label='Toggle navigation'
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className='navbar-toggler-icon'></span>
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li className="nav-item">
+      <div className='collapse navbar-collapse' id='navbarTogglerDemo02'>
+        <ul className='navbar-nav mr-auto mt-2 mt-lg-0'>
+          <li className='nav-item'>
             <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
+              className='nav-link lead'
+              href={process.env.PUBLIC_URL + '/#projects'}
             >
               Projects
             </a>
           </li>
-          <li className="nav-item">
+          <li className='nav-item'>
             <a
-              className="nav-link lead"
+              className='nav-link lead'
               href={resumeLink}
-              target="_blank"
-              rel="noreferrer noopener"
+              target='_blank'
+              rel='noreferrer noopener'
             >
               Resume
             </a>
           </li>
-          <li className="nav-item">
+          <li className='nav-item'>
             <a
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
+              className='nav-link lead'
+              href={process.env.PUBLIC_URL + '/#aboutme'}
             >
               About
             </a>

@@ -1,58 +1,54 @@
 {
-    "name": "Digital-Portfolio",
-    "description": "An open source digital Portfolio designed with ReactJSX and with different ParticlesJS background on all sections.",
-    "homepage": "https://ashwinkumar1211.github.io/Digital-Portfolio",
-    "version": "1.0.0",
-    "private": true,
-    "author": {
-        "name": "Ashwin",
-        "email": "ashwinak1211@gmail.com",
-        "url": "https://github.com/ashwinak1211"
-    },
-    "dependencies": {
-        "@popperjs/core": "^2.1.1",
-        "axios": "^0.19.2",
-        "bootstrap": "^4.5.1",
-        "gh-pages": "^2.2.0",
-        "jquery": "^3.5.1",
-        "node-sass": "^4.14.1",
-        "react": "^16.13.1",
-        "react-bootstrap": "^1.3.0",
-        "react-circular-progressbar": "^2.0.3",
-        "react-dom": "^16.13.1",
-        "react-easy-emoji": "^1.5.0",
-     
-        "react-photo-gallery": "^8.0.0",
-        "react-router": "^5.1.2",
-        "react-router-dom": "^5.1.2",
-        "react-scripts": "^3.4.1",
-        "react-tsparticles": "^1.35.2",
-        "react-typist": "^2.0.5",
-        "tsparticles": "^1.35.2",
-        "typescript": "^3.8.3"
-    },
-    "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "custom-deploy": "node pages.js"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    }
+  "name": "Digital-Portfolio",
+  "description": "An open source digital Portfolio designed with ReactJSX and with different ParticlesJS background on all sections.",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Ashwin",
+    "email": "ashwinak1211@gmail.com",
+    "url": "https://github.com/ashwinak1211"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.1.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.1",
+    "gh-pages": "^2.2.0",
+    "jquery": "^3.5.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-easy-emoji": "^1.5.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-typist": "^2.0.5",
+    "sass": "^1.49.7",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "custom-deploy": "node pages.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

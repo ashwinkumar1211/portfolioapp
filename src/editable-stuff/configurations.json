@@ -1,33 +1,34 @@
 {
-    "backgroundType": "gradient",
-    "plainBackgroundMode": "daylight",
-    "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
-    "FirstName": "Ashwinkumar",
-    "MiddleName": "",
-    "LastName": "Manimaran",
-    "devDesc": "| Computer Science Engineer | Programmer | Full Stack Developer | Data Engineer ",
-    "icons": [{
-            "id": 0,
-            "image": "fa-github",
-            "url": "https://github.com/ashwinkumar1211",
-            "style": "socialicons"
-        },              
-        {
-            "id": 1,
-            "image": "fa-linkedin",
-            "url": "https://linkedin.com/in/ashwin-kumar-m1211",
-            "style": "socialicons"
-        }
-    ],
-    "aboutHeading": "About Me",
-    "aboutDescription": "I'm Ashwinkumar Manimaran, a B.E CSE Graduate from India. I'm a Passionate Developer working at Cognizant Technologies. I love to code and build apps",
-    "projectHeading": "My Works",
-    "gitHubLink": "https://api.github.com/users/",
-    "gitHubUsername": "ashwinkumar1211",
-    "gitHubQuerry": "/repos?sort=created&direction=asc",
-    "projectsLength": 6,
-    "showNavigationbar": true,
-    "resumeLink": "https://drive.google.com/file/d/1jetGXAYETe2eNNdTSApVWKoowK_JWjd3/view?usp=sharing",
-    "mobileNumber": "9500212015",
-    "emailId": "ashwinak1211@gmail.com"
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "FirstName": "Ashwinkumar",
+  "MiddleName": "",
+  "LastName": "M",
+  "devDesc": "| Full Stack Developer | ",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/ashwinkumar1211",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fa-linkedin",
+      "url": "https://linkedin.com/in/ashwin-kumar-m1211",
+      "style": "socialicons"
+    }
+  ],
+  "aboutHeading": "About Me",
+  "aboutDescription": "I'm Ashwinkumar M, I'm a Full Stack Developer. I have 1.3 Years of Industry Experience as developer. I have completed B.E CSE from Anna University. I am looking for Full Stack Developer positions. I am available to join immidiately.",
+  "projectHeading": "My Works",
+  "gitHubLink": "https://api.github.com/users/",
+  "gitHubUsername": "ashwinkumar1211",
+  "gitHubQuerry": "/repos?sort=created&direction=desc",
+  "projectsLength": 6,
+  "showNavigationbar": true,
+  "resumeLink": "https://drive.google.com/file/d/1jetGXAYETe2eNNdTSApVWKoowK_JWjd3/view?usp=sharing",
+  "mobileNumber": "9500212015",
+  "emailId": "ashwinak1211@gmail.com"
 }
